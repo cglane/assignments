@@ -80,7 +80,6 @@ describe('functions', function() {
         expect(arguments.length).to.eql(2);
         expect(firstArgument).to.eql(a);
         expect(secondArgument).to.eql(b);
-
         wasITake2ArgumentsCalled = true;
       };
 
